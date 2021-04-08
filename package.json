@@ -15,5 +15,8 @@
     "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
     }
 }
